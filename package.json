@@ -1,9 +1,13 @@
 {
-  "name": "1",
-  "version": "0.0.0",
+  "name": "profile",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Profile using express",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icibi/Profile.git"
+  },
+  "author": "Irin Cibi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icibi/Profile/issues"
+  },
+  "homepage": "https://github.com/icibi/Profile#readme"
 }
